@@ -33,15 +33,6 @@ diesel::table! {
 }
 
 diesel::table! {
-    post (id) {
-        id -> Int4,
-        title -> Varchar,
-        body -> Text,
-        published -> Bool,
-    }
-}
-
-diesel::table! {
     products (id) {
         id -> Int4,
         #[max_length = 100]
@@ -62,6 +53,5 @@ diesel::allow_tables_to_appear_in_same_query!(
     admins,
     category,
     orders,
-    post,
     products,
 );
