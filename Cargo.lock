@@ -55,6 +55,7 @@ version = "0.1.0"
 dependencies = [
  "diesel",
  "dotenvy",
+ "prelude",
 ]
 
 [[package]]
@@ -150,6 +151,12 @@ checksum = "f6cc05d7ea95200187117196eee9edd0644424911821aeb28a18ce60ea0b8793"
 dependencies = [
  "vcpkg",
 ]
+
+[[package]]
+name = "prelude"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c70d2a17efd6d4063aa8a13d2ce7b0ceeef96ed9e2138c2803f7f4f9824c2cbb"
 
 [[package]]
 name = "proc-macro2"
