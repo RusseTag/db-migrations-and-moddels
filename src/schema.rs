@@ -1,8 +1,8 @@
 // @generated automatically by Diesel CLI.
 
 diesel::table! {
-    admins (Id) {
-        Id -> Int4,
+    admins (id) {
+        id -> Int4,
         #[max_length = 45]
         username -> Nullable<Varchar>,
         #[max_length = 255]
@@ -41,7 +41,7 @@ diesel::table! {
         aliexpress_link -> Nullable<Varchar>,
         cost_price -> Nullable<Int4>,
         sell_price -> Nullable<Int4>,
-        date_added -> Nullable<Date>,
+        date_added -> Timestamp,
         category_id -> Nullable<Int4>,
     }
 }
