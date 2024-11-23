@@ -1,4 +1,4 @@
 # Todo
 
-- [ ] add models
-- [ ] make it a cargo crate
+- [X] add models
+- [X] make it a cargo crate

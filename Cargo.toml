@@ -1,7 +1,11 @@
 [package]
 name = "db-migrations"
 version = "0.1.0"
+author = ["André Hansen"]
 edition = "2021"
+description = "Database migration moddels for RusseTag"
+license = "MIT"
+repository = "https://github.com/RusseTag/db-migrations-and-moddels"
 
 [dependencies]
 chrono = {version = "0.4.38", features = ["serde"]}
